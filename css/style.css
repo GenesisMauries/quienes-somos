@@ -1,0 +1,30 @@
+/* Titulo */
+.dos .text {margin-top: 50px;display: flex;justify-content: center;-webkit-transform: translateY(-50%);transform: translateY(-50%);text-align: center;transition:-webkit-transform .3s ease-in-out;transition: transform .3s ease-in-out;transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;font-size: 26px;}
+.dos .text:hover {-webkit-transform: rotateX(35deg), translateY(-50%);transform: rotateX(35deg), translateY(-50%);}
+.dos .text:hover span {color: #333;}
+.dos .text:hover span:nth-child(odd) {-webkit-transform: skewY(15deg);transform: skewY(15deg);}
+.dos .text:hover span:nth-child(even) {-webkit-transform: skewY(-15deg);transform: skewY(-15deg);background-color: #00A2D3;color: #333;}
+.dos .text > span {display: block;background-color: #75BD1E;width: 50px;height: 50px;line-height: 50px;transition: color .3s ease-in-out, background-color .3s ease-in-out, -webkit-transform .3s ease-in-out;transition: transform .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;transition: transform .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out, -webkit-transform .3s ease-in-out;box-shadow: 0 40px 50px rgba(0, 0, 0, 0.1);}
+.dos .text > span:first-child {border-radius: 5px 0 0 5px;}
+.dos .text > span:last-child{border-radius: 0 5px 5px 0;}
+/* Color de titulos */
+.titleAzul{color:#00A2D3;}
+.titleVerde{color:#75BD1E;}
+.titleAmarillo{color:#F7C526}
+/* Fondo Mision y vision */
+.bg-mision{background-color: tomato; color: #000}
+.bg-card{background-color: #025081;}
+.card-bg{background-color: #3ABCCC}
+/* Laboratorio creativo */
+.word {position: absolute;width: 180px;opacity: 0;}
+.letter {display: inline-block;position: relative;transform: translateZ(25px);transform-origin: 50% 50% 25px;}
+.letter.out {transform: rotateX(90deg);transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);}
+.letter.behind {transform: rotateX(-90deg);}
+.letter.in {transform: rotateX(0deg);transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);}
+.wisteria {color: #8e44ad;}
+.belize {color: #00A2D3;}
+.pomegranate {color: #75BD1E;}
+.green {color: #F7C526}
+.midnight {color: #75BD1E;}
+
+  
